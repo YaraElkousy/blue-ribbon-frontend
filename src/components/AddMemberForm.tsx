@@ -42,7 +42,7 @@ export default function AddMemberForm({ onAdd }: Props) {
         <div style={{
           width: '40px',
           height: '40px',
-          background: 'linear-gradient(135deg, #10b981, #059669)',
+          background: 'linear-gradient(135deg, #8b5cf6, #7c3aed)',
           borderRadius: '8px',
           display: 'flex',
           alignItems: 'center',
@@ -94,7 +94,7 @@ export default function AddMemberForm({ onAdd }: Props) {
           disabled={isSubmitting}
           onFocus={(e) => {
             e.target.style.borderColor = '#10b981'
-            e.target.style.boxShadow = '0 0 0 3px rgba(16, 185, 129, 0.1)'
+            e.target.style.boxShadow = '0 0 0 3px rgba(124, 58, 237, 0.3)'
           }}
           onBlur={(e) => {
             e.target.style.borderColor = '#d1d5db'
@@ -108,7 +108,7 @@ export default function AddMemberForm({ onAdd }: Props) {
             padding: '12px 24px',
             background: isSubmitting || !name.trim() 
               ? '#9ca3af' 
-              : 'linear-gradient(135deg, #10b981, #059669)',
+              : 'linear-gradient(135deg, #a89db3, #8e80a6)',
             color: 'white',
             fontWeight: '500',
             borderRadius: '8px',
@@ -123,12 +123,12 @@ export default function AddMemberForm({ onAdd }: Props) {
           }}
           onMouseEnter={(e) => {
             if (!isSubmitting && name.trim()) {
-              e.currentTarget.style.background = 'linear-gradient(135deg, #059669, #047857)'
+              e.currentTarget.style.background = 'linear-gradient(135deg, #a89db3, #8e80a6)'
             }
           }}
           onMouseLeave={(e) => {
             if (!isSubmitting && name.trim()) {
-              e.currentTarget.style.background = 'linear-gradient(135deg, #10b981, #059669)'
+              e.currentTarget.style.background = 'linear-gradient(135deg, #cfc9d6, #b6acc9)'
             }
           }}
         >
@@ -136,7 +136,7 @@ export default function AddMemberForm({ onAdd }: Props) {
             <div style={{
               width: '16px',
               height: '16px',
-              border: '2px solid rgba(255, 255, 255, 0.3)',
+              border: '2px solid rgba(124, 58, 237, 0.3)',
               borderTop: '2px solid white',
               borderRadius: '50%',
               animation: 'spin 1s linear infinite'

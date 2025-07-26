@@ -14,8 +14,8 @@ export default function MemberList({ members }: { members: Member[] }) {
           style={{
             position: 'relative',
             overflow: 'hidden',
-            background: 'linear-gradient(135deg, #dcfce7, #bbf7d0)',
-            border: '1px solid rgba(34, 197, 94, 0.3)',
+            background: 'linear-gradient(135deg, #f3e8ff, #e9d5ff)',
+            border: '1px solid rgba(124, 58, 237, 0.3)',
             borderRadius: '12px',
             padding: '24px',
             boxShadow: '0 1px 3px rgba(0, 0, 0, 0.1)',
@@ -39,7 +39,7 @@ export default function MemberList({ members }: { members: Member[] }) {
             <div style={{
               width: '48px',
               height: '48px',
-              background: 'linear-gradient(135deg, #10b981, #059669)',
+              background: 'linear-gradient(135deg, #8b5cf6, #7c3aed)',
               borderRadius: '8px',
               display: 'flex',
               alignItems: 'center',
@@ -80,9 +80,9 @@ export default function MemberList({ members }: { members: Member[] }) {
               borderRadius: '12px',
               fontSize: '12px',
               fontWeight: '500',
-              background: '#dcfce7',
+              background: '#faf5ff',
               color: '#166534',
-              border: '1px solid #bbf7d0'
+              border: '1px solid #f3e8ff'
             }}>
               Active
             </span>

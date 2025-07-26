@@ -35,7 +35,7 @@ export default function MembersPage() {
   return (
     <div style={{
       minHeight: '100vh',
-      background: 'linear-gradient(135deg, #f0fdf4 0%, #dcfce7 50%, #bbf7d0 100%)',
+      background: 'linear-gradient(135deg, #faf5ff, #f3e8ff)',
       padding: '0'
     }}>
       {/* Header */}
@@ -60,7 +60,7 @@ export default function MembersPage() {
             <div style={{
               width: '48px',
               height: '48px',
-              background: 'linear-gradient(135deg, #10b981, #059669)',
+              background: 'linear-gradient(135deg, #8b5cf6, #7c3aed)',
               borderRadius: '12px',
               display: 'flex',
               alignItems: 'center',
@@ -111,7 +111,7 @@ export default function MembersPage() {
               <div style={{
                 width: '32px',
                 height: '32px',
-                background: 'linear-gradient(135deg, #10b981, #059669)',
+                background: 'linear-gradient(135deg, #8b5cf6, #7c3aed)',
                 borderRadius: '8px',
                 display: 'flex',
                 alignItems: 'center',
