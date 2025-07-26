@@ -4,9 +4,9 @@ export const sports = [
   ];
   
   export const members = [
-    { id: 1, name: "Ahmed" },
-    { id: 2, name: "Habiba" },
-    { id: 2, name: "Yara" },
-    { id: 2, name: "Mohamed" }
+    { id: 1, name: "Ahmed", email: 'ahmed@example.com', sports: ['Football'] },
+    { id: 2, name: "Habiba" , email: 'habiba@example.com', sports: ['Basketball', 'Tennis']},
+    { id: 2, name: "Yara" , email: 'yara@example.com', sports: ['Basketball']},
+    { id: 2, name: "Mohamed" , email: 'mohamed@example.com', sports: ['Football']}
   ];
   
