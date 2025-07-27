@@ -1,36 +1,66 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-## Getting Started
+# Blue Ribbon Frontend Task – Sports Club Management
 
-First, run the development server:
+This is a frontend application built as part of the Blue Ribbon internship task. It allows users to manage a sports club system with functionality to view, add, and subscribe members to various sports.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+The app is built using **Next.js** with **TypeScript**, and it uses mock data stored in local state for simplicity.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🚀 Live Demo
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+🔗 [View the live demo on Vercel]()
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+## 🧩 Features
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- ✅ View a list of sports
+- ✅ Add new sports
+- ✅ View a list of members
+- ✅ Add new members
+- ✅ Subscribe members to one or more sports
+- ✅ Prevent duplicate subscriptions
+- 📱 Fully responsive layout
+- 💻 Built with TypeScript for type safety and clarity
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+## ⚙️ Setup Instructions
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+1. **Clone the repository**
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+    ```bash
+    git clone https://github.com/YaraElkousy/blue-ribbon-frontend.git
+    cd blue-ribbon-frontend
+    ```
+
+2. **Install dependencies**
+
+    ```bash
+    npm install
+    ```
+
+3. **Start the development server**
+
+    ```bash
+    npm run dev
+    ```
+
+4. **Visit the app**
+
+    ```
+    http://localhost:3000
+    ```
+
+---
+
+## 🛠 Tech Stack
+
+- [Next.js](https://nextjs.org/)
+- [React](https://react.dev/)
+- [TypeScript](https://www.typescriptlang.org/)
+- CSS-in-JS & inline styles
+- No backend (data is mocked using in-memory arrays)
+
+---
