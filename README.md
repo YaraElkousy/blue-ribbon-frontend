@@ -9,7 +9,7 @@ The app is built using **Next.js** with **TypeScript**, and it uses mock data st
 
 ## 🚀 Live Demo
 
-🔗 [View the live demo on Vercel]()
+🔗 [View the live demo on Vercel](https://blue-ribbon-frontend-e12o.vercel.app/)
 
 ---
 
